@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>波奇酱模式</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="login">
+        <a href="login.html">登录/注册</a>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <h4>Elysia</h4>
+            </div>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">关于</a></li>
+                <li><a href="#">联系</a></li>
+            </ul>
+            <form id="content" onsubmit="return checkSearch(event)">
+                <input type="text" name="input" class="input" id="search-input">
+                <button type="reset" class="search" id="search-btn"></button>
+            </form>
+        </nav>
+        <h1>波奇酱</h1>
+    </header>
+
+    <div class="content-section">
+        <!-- 左侧主要内容区域 -->
+        <div class="main-content">
+            <!-- 最新资讯区域 -->
+            <div class="news-banner">
+                <div class="news-header">
+                    <h2>最新资讯</h2>
+                </div>
+                <div class="news-list">
+                    <a href="#" class="news-item">
+                        <span class="news-date">2024-03-24</span>
+                        <span class="news-title">网站改版更新公告</span>
+                    </a>
+                    <a href="#" class="news-item">
+                        <span class="news-date">2024-03-23</span>
+                        <span class="news-title">新增MMD模型下载</span>
+                    </a>
+                    <a href="#" class="news-item">
+                        <span class="news-date">2024-03-22</span>
+                        <span class="news-title">Blender教程更新</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 卡片内容区域 -->
+            <div class="featured-cards">
+                <!-- 第一行卡片 -->
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/preview.jpg" alt="MMD模型">
+                        </div>
+                        <div class="card-content">
+                            <h3>亦静风止</h3>
+                            <p>奔赴梦想之旅</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="autowx.html" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/preview.jpg" alt="动画教程">
+                        </div>
+                        <div class="card-content">
+                            <h3>微信回复</h3>
+                            <p>自动回复微信消息</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/preview.jpg" alt="资源分享">
+                        </div>
+                        <div class="card-content">
+                            <h3>资源分享</h3>
+                            <p>动画相关资源分享</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/preview.jpg" alt="动画教程">
+                        </div>
+                        <div class="card-content">
+                            <h3>动画教程</h3>
+                            <p>Blender动画制作教程</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/preview.jpg" alt="动画教程">
+                        </div>
+                        <div class="card-content">
+                            <h3>动画教程</h3>
+                            <p>Blender动画制作教程</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/preview.jpg" alt="动画教程">
+                        </div>
+                        <div class="card-content">
+                            <h3>动画教程</h3>
+                            <p>Blender动画制作教程</p>
+                        </div>
+                    </div>
+                </a>
+
+               
+            </div>
+        </div>
+
+        <!-- 右侧边栏 -->
+        <div class="sidebar">
+            <div class="profile-card">
+                <div class="profile-icon">
+                    <img src="img/preview.jpg" alt="波奇酱">
+                </div>
+                <h2 class="profile-name">[&nbsp;&nbsp;&nbsp;]</h2>
+                <p class="profile-desc">0v0</p>
+                <div class="profile-stats">
+                    <div class="stat">
+                        <span class="number">6</span>
+                        <span class="label">文章</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">9</span>
+                        <span class="label">分类</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">1024</span>
+                        <span class="label">访问量</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">8096天</span>
+                        <span class="label">建站天数</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 标签目录 -->
+            <div class="tag-section">
+                <h3>标签目录</h3>
+                <div class="tags">
+                    <a href="#" class="tag"># Halo</a>
+                    <a href="#" class="tag">查看更多 ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
